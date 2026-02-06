@@ -1,0 +1,17 @@
+{
+  "name": "@prethora/plocker",
+  "version": "1.0.0",
+  "description": "Encrypt and decrypt files with a master password",
+  "type": "module",
+  "bin": {
+    "plocker": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
